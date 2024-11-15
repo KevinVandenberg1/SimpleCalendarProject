@@ -1,3 +1,7 @@
+// Primary and only file for the project
+// The program is interactable through the console and will also display the calendar to the console
+
+
 import java.util.Calendar;
 import java.util.Scanner;
 import java.util.regex.*;
@@ -171,6 +175,8 @@ public class CalendarProject {
          
       }    
    } 
+
+   // Triggers a prompt for the user to add an event to the calendar
    public static void addEvent(Scanner Input) {
       System.out.println("To add an event, follow the following format:");
       System.out.println("MM/DD [event_name]");
